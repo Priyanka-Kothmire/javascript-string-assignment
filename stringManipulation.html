@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Manipulation</title>
+</head>
+<body>
+
+<!-- FIRST CAPITAL LETTER -->
+<h3>String of first capital letter </h3>
+<input type="text" id="inputText">
+	<button onclick="capitalizeWords()">Try it</button>
+		<p id="outputText"></p>
+	
+<!-- ALL CAPITAL WORDS	 -->
+<h3>String of all capital letter </h3>
+<input type="text" id="inputText_1">
+	<button onclick="capitalizeAll()">Try it</button>
+		<p id="outputText_1"></p>
+  
+  <!-- EXIST LETTER -->
+<h3>String of Exist letter </h3>
+<input type="text"  id="demo" >
+	<button onclick="isExist()">Try it</button>
+		<p id="result"></p>
+		
+		
+<!-- WORD OCCURANCE		 -->
+<h3>String of occurance word </h3>
+<input type="text"  id="string" >
+	<button onclick="getOccuranceCount()">Try it</button>
+		<p id="result_1"></p>
+		
+<!-- WORD OCCURANCE DENSITY		 -->
+<h3>String of word density </h3>
+<input type="text"  id="input" >
+	<button onclick="wordDensity()">Try it</button>
+		<p id="result_2"></p>
+		
+			
+<!-- REVERSE WORDS -->
+<h3>String of Reverse words </h3>
+<input type="text"  id="inputNumber" >
+	<button onclick=" reverseWords()">Try it</button>
+		<p id="result_5"></p>
+		
+<!-- COUNTING VOWELS -->
+<h3>String of Count Vowels</h3>
+  <input type="text" id="inputText_count" >
+  <button onclick="countVowels()">Try it</button>
+  <p id="result_6"></p>
+  
+<h3>String of  Palindrome word</h3>
+  <input type="text" id="para" >
+  <button onclick="isPalindrome()">Try it</button>
+  <p id="result_7"></p>
+  
+<h3>String of  Trucation</h3>
+  <input type="text" id="str" >
+  <button onclick="truncateString()">Try it</button>
+  <p id="result_8"></p>
+  
+  
+  <!-- STRING MASKING -->
+<h3>String of  Masking</h3>
+  <input type="text" id="str_1" >
+  <button onclick="maskString()">Try it</button>
+  <p id="result_9"></p>
+  
+ <!-- EMAIL VALIDATION -->
+ <h3>String of Email Validation</h3>
+  <input type ="text" id="str_2">
+  <button onclick="validateEmail()">Try it</button>
+  <p id ="result_10"></p>
+  
+ <!-- FILE EXTENSION EXTRACTION -->
+ <h3>String of File Extension</h3>
+  <input type ="text" id="str_3">
+  <button onclick="getExt()">Try it</button>
+  <p id ="result_11"></p>
+
+
+<!-- REMOVE WHITE-SPACE  -->
+<h3>String of Remove white space</h3>
+<style>
+#string_1 {
+  width: 400px;
+  height: 200px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+</style>
+			<div id="string_1">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+					sed diam nonummy nibh euismod tincidunt ut laoreet
+					 dolore magna aliquam erat volutpat.
+			</div>
+			<button onclick="removeWhitespace()">Try it </button>
+			
+			
+
+<script src="stringManipulation.js"></script>
+</body>
+</html>
+
+
